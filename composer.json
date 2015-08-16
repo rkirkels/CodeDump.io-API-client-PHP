@@ -16,6 +16,6 @@
         "ext-curl": "*"
     },
     "autoload": {
-        "psr-0": { "rkirkels/codedump_io": "." }
+        "psr-0": { "rkirkels\\codedump_io": "." }
     }
 }
