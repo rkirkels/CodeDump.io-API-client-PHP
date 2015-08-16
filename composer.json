@@ -16,6 +16,6 @@
         "ext-curl": "*"
     },
     "autoload": {
-        "files": [ "CodeDumpClient.php" ]
+        "psr-0": { "codedump_io": "." }
     }
 }
