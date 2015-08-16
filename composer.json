@@ -1,0 +1,7 @@
+{
+    "name": "rkirkels/codedump_io",
+    "description": "A PHP-client for the CodeDump.io API",
+    "require": {
+        "php": ">=5.0"
+    }
+}
