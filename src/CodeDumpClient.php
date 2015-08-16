@@ -5,8 +5,8 @@ namespace rkirkels\codedump_io;
  * Ga naar http://creativecommons.org/licenses/by/4.0/ om een kopie van de licentie te kunnen lezen.
  */
 
-define('TOKEN_KEY', '9uRtoBwxobV7AQI4JdmNxeWq5p12Awi3G1kaw9GHqvvxAN3lZ');
-define('TOKEN_SECRET', 'x1BgTCEEEL2wBthEZFH1fvLR8F8buJpb3NEi45d17Ro');
+define('TOKEN_KEY', 'INSERT_YOUR_API_KEY_HERE');
+define('TOKEN_SECRET', 'INSERT_YOUR_API_SECRET_HERE');
 define('performPrechecks', false);
 
 // DO NOT EDIT BELOW THIS LINE ! -----------------------------------------------
