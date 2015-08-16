@@ -1,5 +1,5 @@
 # CodeDump.io-API-client-PHP
-A PHP Client to the CodeDump.io API
+A PHP Client for the CodeDump.io API
 
 ## What is CodeDump.io?
 CodeDump.io is a website where programmers can dump any code or configuration they like in
