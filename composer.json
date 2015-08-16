@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "rkirkels\\codedump_io\\": "."
+            "rkirkels\\codedump_io\\": "src"
         }
     }
 }
