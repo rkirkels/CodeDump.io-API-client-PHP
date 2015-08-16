@@ -318,6 +318,13 @@ class CodeDumpClient {
         return $this->response;
     }
     
+    /**
+     * Returns the content of a give file.
+     * @access public
+     * @param string $file Path to file.
+     * @param boolean $reportError Enables error reporting when file does not exist. (Default: TRUE)
+     * @return boolean
+     */
     public function loadFileContents($file, $reportError = true) {
         if (!file_exists($file)) {
             if ($reportError === true) {
@@ -329,6 +336,13 @@ class CodeDumpClient {
         return $content;
     }
     
+    /**
+     * Raises a PHP error
+     * @access private
+     * @param string $message
+     * @param integer $level PHP User error level E_USER_NOTICE|E_USER_WARNING|E_USER_ERROR
+     * @return boolean
+     */
     private function raiseError($message, $level) {
         $caller = next(debug_backtrace());
         switch ($level) {
