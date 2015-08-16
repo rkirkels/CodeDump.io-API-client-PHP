@@ -1,5 +1,5 @@
 <?php
-namespace expanet\codedump_io;
+namespace codedump_io;
 /*
  * Dit werk is gelicenseerd onder de licentie Creative Commons Naamsvermelding 4.0 Internationaal. 
  * Ga naar http://creativecommons.org/licenses/by/4.0/ om een kopie van de licentie te kunnen lezen.
