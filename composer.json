@@ -1,7 +1,21 @@
 {
     "name": "rkirkels/codedump_io",
     "description": "A PHP-client for the CodeDump.io API",
+    "keywords": ["CodeDump.io","API", "client"],
+    "homepage": "https://github.com/rkirkels/CodeDump.io-API-client-PHP",
+    "authors": [
+        {
+            "name": "Rutger Kirkels",
+            "email": "r.kirkels@expanet.nl",
+            "homepage": "http://rutger.kirkels.nl",
+            "role": "Developer"
+        }
+    ],
     "require": {
-        "php": ">=5.0"
+        "php": ">=5.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "files": [ "CodeDumpClient.php" ]
     }
 }
