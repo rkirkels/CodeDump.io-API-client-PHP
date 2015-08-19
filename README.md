@@ -16,7 +16,7 @@ CodeDump.io-API-client-PHP provides everything you need to communicate with the
 ## How to install the client?
 The client can easily be installed using [Composer](http://getcomposer.org):
 
-    "require": { "rkirkels/codedump_io": "dev-master" }
+    "require": { "rkirkels/codedump_io": "1.0.*" }
     
 ## Prerequisites
 In order to use the this client, you need:
