@@ -365,4 +365,12 @@ class CodeDumpClient {
         }
         return true;
     }
+    
+    public function getMyDumps() {
+        $this->command = "dumps/get";
+        if ($this->execute()) {
+            return $this->response;
+        }
+        return false;
+    }
 }
